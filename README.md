@@ -1,9 +1,5 @@
 # Blazor Web App - Purple Pete
 
-## Description
-
-The **Purple Pete** Blazor Web App is an interactive chatbot platform where users can communicate with a bot named **Purple Pete**. 
-
 ## Features
 
 - **Chat Interface**: A user-friendly interface for chatting with the bot. Users can send messages, and the bot replies with pre-programmed responses.
