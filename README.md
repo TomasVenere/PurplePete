@@ -1,7 +1,6 @@
 # Blazor Web App - Purple Pete
 
 ## Features
-
 - **Chat Interface**: A user-friendly interface for chatting with the bot. Users can send messages, and the bot replies with pre-programmed responses.
 - **Robot Avatar**: A visual robot avatar representing the bot, which changes its appearance when the bot is typing.
 - **Interactive Chat**: The chat interface includes a simple layout with chat bubbles to distinguish between user and bot messages.
