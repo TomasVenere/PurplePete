@@ -1,0 +1,38 @@
+/* Modern Professional Navbar */
+.custom-navbar[b-0uy20tm692] {
+    background-color: #1c1c1e; /* dark slate gray */
+    border-bottom: 1px solid #3c3c3e;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Nav brand */
+.navbar-brand[b-0uy20tm692] {
+    font-size: 1.5rem;
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Nav links */
+.nav-link[b-0uy20tm692] {
+    color: #dddddd !important;
+    font-size: 1rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover[b-0uy20tm692],
+.nav-link.active[b-0uy20tm692] {
+    color: #ffe66d !important; /* soft gold */
+    text-decoration: none;
+}
+
+/* Responsive toggler icon */
+.navbar-toggler[b-0uy20tm692] {
+    border: none;
+}
+
+.navbar-toggler-icon[b-0uy20tm692] {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28 255, 255, 255, 0.7 %29)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,67 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<div class="chat-container">
+    <!-- Robot Image -->
+    <div class="robot-container">
+        <img src="@RobotImage" alt="Purple Pete" class="robot-image" />
+    </div>
+
+    <div class="chat-box-container">
+        <div class="chat-box">
+            @foreach (var message in _messages)
+            {
+                <div class="message @(message.Sender == "You" ? "user-message" : "bot-message")">
+                    <div class="bubble">
+                        <strong>@message.Sender:</strong> @message.Text
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="input-container">
+            <input type="text" @bind="_currentMessage" @bind:event="oninput" placeholder="Type your message..." />
+            <button @onclick="SendMessage">Send</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<ChatMessage> _messages = new();
+    private string _currentMessage = string.Empty;
+    private bool _isBotTyping = false;
+
+    private string RobotImage => _isBotTyping 
+        ? "/avatars/PurpleRobotTalking.png" 
+        : "/avatars/PurpleRobot.png";
+
+    private async Task SendMessage()
+    {
+        if (string.IsNullOrWhiteSpace(_currentMessage)) return;
+
+        _messages.Add(new ChatMessage { Sender = "You", Text = _currentMessage });
+
+        _currentMessage = string.Empty;
+        _isBotTyping = true;
+        StateHasChanged(); // Show talking robot
+
+        await Task.Delay(1000); // Simulate thinking
+
+        _messages.Add(new ChatMessage
+        {
+            Sender = "Purple Pete",
+            Text = "Hi! I'm Purple Pete. We're currently under maintenance, but feel free to leave your question!"
+        });
+
+        _isBotTyping = false;
+        StateHasChanged(); // Revert to idle robot
+    }
+
+    public class ChatMessage
+    {
+        public string? Sender { get; set; }
+        public string? Text { get; set; }
+    }
+}
