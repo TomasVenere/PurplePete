@@ -78,8 +78,8 @@ C:\Users\Tomas.Venere\Desktop\PurplePete\PurplePete\obj\Debug\net9.0\compressed\
 C:\Users\Tomas.Venere\Desktop\PurplePete\PurplePete\obj\Debug\net9.0\compressed\z67x1x4wm0-knxokakbgn.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\appsettings.json
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.staticwebassets.endpoints.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.staticwebassets.runtime.json
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.staticwebassets.endpoints.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.exe
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.deps.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\bin\Debug\net9.0\PurplePete.runtimeconfig.json
@@ -153,5 +153,5 @@ C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\refint\Pu
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\PurplePete.pdb
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\PurplePete.genruntimeconfig.cache
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\ref\PurplePete.dll
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\pq1ozlxfwu-5v1vwy4xmp.gz
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\gqc8e6a8xr-5v1vwy4xmp.gz
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\pq1ozlxfwu-en2qvwu33f.gz
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\gqc8e6a8xr-en2qvwu33f.gz

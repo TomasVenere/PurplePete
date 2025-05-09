@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VdQMQdGr/80a5WIXJ2Bvs0wsAZGJrtEC5JqfYpN/Va8=",
+  "Hash": "VB2JUcwkJODBkmBV5ct8uLEs5jUTNhoeJz1SDoDHN9k=",
   "Source": "PurplePete",
   "BasePath": "_content/PurplePete",
   "Mode": "Default",
@@ -542,12 +542,12 @@
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-5v1vwy4xmp.gz",
+      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-en2qvwu33f.gz",
       "SourceId": "PurplePete",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PurplePete",
-      "RelativePath": "PurplePete#[.{fingerprint=5v1vwy4xmp}]!.bundle.scp.css.gz",
+      "RelativePath": "PurplePete#[.{fingerprint=en2qvwu33f}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -556,8 +556,8 @@
       "RelatedAsset": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4zuj4ayyjy",
-      "Integrity": "cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=",
+      "Fingerprint": "dlebloy31q",
+      "Integrity": "X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css"
@@ -752,12 +752,12 @@
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-5v1vwy4xmp.gz",
+      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-en2qvwu33f.gz",
       "SourceId": "PurplePete",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PurplePete",
-      "RelativePath": "PurplePete#[.{fingerprint=5v1vwy4xmp}]?.styles.css.gz",
+      "RelativePath": "PurplePete#[.{fingerprint=en2qvwu33f}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -766,8 +766,8 @@
       "RelatedAsset": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PurplePete.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4zuj4ayyjy",
-      "Integrity": "cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=",
+      "Fingerprint": "dlebloy31q",
+      "Integrity": "X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PurplePete.styles.css"
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "5v1vwy4xmp",
-      "Integrity": "MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=",
+      "Fingerprint": "en2qvwu33f",
+      "Integrity": "FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PurplePete.styles.css"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "5v1vwy4xmp",
-      "Integrity": "MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=",
+      "Fingerprint": "en2qvwu33f",
+      "Integrity": "FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css"
@@ -15712,13 +15712,13 @@
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-5v1vwy4xmp.gz",
+      "Route": "PurplePete.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-en2qvwu33f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001697792869"
+          "Quality": "0.001180637544"
         }
       ],
       "ResponseHeaders": [
@@ -15728,19 +15728,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15756,26 +15756,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "W/\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
-        },
-        {
-          "Name": "label",
-          "Value": "PurplePete.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.bundle.scp.css",
+      "Route": "PurplePete.bundle.scp.css",
       "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15785,7 +15777,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "1889"
         },
         {
           "Name": "Content-Type",
@@ -15793,11 +15785,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
+        }
+      ]
+    },
+    {
+      "Route": "PurplePete.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-en2qvwu33f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids="
+        }
+      ]
+    },
+    {
+      "Route": "PurplePete.en2qvwu33f.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-en2qvwu33f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001180637544"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "en2qvwu33f"
+        },
+        {
+          "Name": "label",
+          "Value": "PurplePete.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
+        }
+      ]
+    },
+    {
+      "Route": "PurplePete.en2qvwu33f.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15807,7 +15944,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
+          "Value": "en2qvwu33f"
         },
         {
           "Name": "label",
@@ -15815,13 +15952,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-5v1vwy4xmp.gz",
+      "Route": "PurplePete.en2qvwu33f.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-en2qvwu33f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15830,7 +15967,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "Content-Type",
@@ -15838,11 +15975,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15860,7 +15997,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
+          "Value": "en2qvwu33f"
         },
         {
           "Name": "label",
@@ -15868,18 +16005,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A="
+          "Value": "sha256-X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids="
         }
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.styles.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-5v1vwy4xmp.gz",
+      "Route": "PurplePete.en2qvwu33f.styles.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-en2qvwu33f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001697792869"
+          "Quality": "0.001180637544"
         }
       ],
       "ResponseHeaders": [
@@ -15889,15 +16026,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15917,13 +16054,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "W/\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
+          "Value": "en2qvwu33f"
         },
         {
           "Name": "label",
@@ -15931,12 +16068,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.styles.css",
+      "Route": "PurplePete.en2qvwu33f.styles.css",
       "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\bundle\\PurplePete.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15946,7 +16083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "1889"
         },
         {
           "Name": "Content-Type",
@@ -15954,11 +16091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15968,7 +16105,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
+          "Value": "en2qvwu33f"
         },
         {
           "Name": "label",
@@ -15976,13 +16113,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
     {
-      "Route": "PurplePete.5v1vwy4xmp.styles.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-5v1vwy4xmp.gz",
+      "Route": "PurplePete.en2qvwu33f.styles.css.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-en2qvwu33f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15991,7 +16128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "Content-Type",
@@ -15999,11 +16136,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16021,7 +16158,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v1vwy4xmp"
+          "Value": "en2qvwu33f"
         },
         {
           "Name": "label",
@@ -16029,155 +16166,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A="
-        }
-      ]
-    },
-    {
-      "Route": "PurplePete.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-5v1vwy4xmp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001697792869"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "588"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
-        }
-      ]
-    },
-    {
-      "Route": "PurplePete.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PurplePete.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
-        }
-      ]
-    },
-    {
-      "Route": "PurplePete.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\gqc8e6a8xr-5v1vwy4xmp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "588"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A="
+          "Value": "sha256-X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids="
         }
       ]
     },
     {
       "Route": "PurplePete.styles.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-5v1vwy4xmp.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-en2qvwu33f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001697792869"
+          "Quality": "0.001180637544"
         }
       ],
       "ResponseHeaders": [
@@ -16187,15 +16187,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16215,13 +16215,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "W/\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
@@ -16236,7 +16236,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "1889"
         },
         {
           "Name": "Content-Type",
@@ -16244,11 +16244,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU=\""
+          "Value": "\"FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16258,13 +16258,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MYNgv/jiGbNF2rtd2Z96UUnC/wAlENXARJj870Fj5GU="
+          "Value": "sha256-FtEw+ZOCH4mXJgdji/dhQ0JfJ5c0O6vZj3u2b3GdEw8="
         }
       ]
     },
     {
       "Route": "PurplePete.styles.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-5v1vwy4xmp.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\pq1ozlxfwu-en2qvwu33f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16273,7 +16273,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "588"
+          "Value": "846"
         },
         {
           "Name": "Content-Type",
@@ -16281,11 +16281,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A=\""
+          "Value": "\"X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:01:02 GMT"
+          "Value": "Fri, 09 May 2025 22:30:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16303,7 +16303,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cFCB7TNlM0P/d2Uc6mnY7AmLCfEaOOozH9/JSNh/05A="
+          "Value": "sha256-X2x6+XE5gNTa0Pp0fshzp4J25oqP1UiZuIXDVI33Ids="
         }
       ]
     }
