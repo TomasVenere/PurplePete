@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PurplePete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d77f566c804d58b6e7e5693476250a3e7f3b146f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99372ab0d61f81701099066694a54223e66b41a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PurplePete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PurplePete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

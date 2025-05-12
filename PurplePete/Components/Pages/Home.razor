@@ -1,5 +1,8 @@
 ﻿@page "/"
+@using PurplePete.Services
 @rendermode InteractiveServer
+@inject BedrockChatAI BedrockChatAI
+
 
 <PageTitle>Home</PageTitle>
 
@@ -43,21 +46,25 @@
 
         _messages.Add(new ChatMessage { Sender = "You", Text = _currentMessage });
 
-        _currentMessage = string.Empty;
         _isBotTyping = true;
-        StateHasChanged(); // Show talking robot
+        var userMessage = _currentMessage;
+        _currentMessage = string.Empty;
+        StateHasChanged(); // Update robot to talking
 
         await Task.Delay(1000); // Simulate thinking
+
+        var response = await BedrockChatAI.GetResponseAsync(userMessage);
 
         _messages.Add(new ChatMessage
         {
             Sender = "Purple Pete",
-            Text = "Hi! I'm Purple Pete. We're currently under maintenance, but feel free to leave your question!"
+            Text = response
         });
 
         _isBotTyping = false;
-        StateHasChanged(); // Revert to idle robot
+        StateHasChanged(); // Revert robot
     }
+
 
     public class ChatMessage
     {

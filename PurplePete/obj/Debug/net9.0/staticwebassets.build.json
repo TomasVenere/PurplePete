@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VB2JUcwkJODBkmBV5ct8uLEs5jUTNhoeJz1SDoDHN9k=",
+  "Hash": "o7J9leTmHzpdIgD8XYEit5/C4/sW4LXEO89RRcAcbzI=",
   "Source": "PurplePete",
   "BasePath": "_content/PurplePete",
   "Mode": "Default",
@@ -941,12 +941,12 @@
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-knxokakbgn.gz",
+      "Identity": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-4s3jleesow.gz",
       "SourceId": "PurplePete",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PurplePete",
-      "RelativePath": "app#[.{fingerprint=knxokakbgn}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=4s3jleesow}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -955,8 +955,8 @@
       "RelatedAsset": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "06hgirc9pj",
-      "Integrity": "6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA=",
+      "Fingerprint": "kg6jc3ug62",
+      "Integrity": "jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\app.css"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "knxokakbgn",
-      "Integrity": "oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU=",
+      "Fingerprint": "4s3jleesow",
+      "Integrity": "5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -2056,13 +2056,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-knxokakbgn.gz",
+      "Route": "app.4s3jleesow.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-4s3jleesow.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000468164794"
+          "Quality": "0.000457038391"
         }
       ],
       "ResponseHeaders": [
@@ -2072,19 +2072,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "2187"
         },
         {
           "Name": "ETag",
-          "Value": "\"6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA=\""
+          "Value": "\"jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2100,18 +2100,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU=\""
+          "Value": "W/\"5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4s3jleesow"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU="
+          "Value": "sha256-5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0="
         }
       ]
     },
     {
-      "Route": "app.css",
+      "Route": "app.4s3jleesow.css",
       "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2121,7 +2129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5357"
+          "Value": "5487"
         },
         {
           "Name": "Content-Type",
@@ -2129,121 +2137,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU=\""
+          "Value": "\"5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-knxokakbgn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2135"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA="
-        }
-      ]
-    },
-    {
-      "Route": "app.knxokakbgn.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-knxokakbgn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000468164794"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2135"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "knxokakbgn"
+          "Value": "4s3jleesow"
         },
         {
           "Name": "label",
@@ -2251,13 +2159,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU="
+          "Value": "sha256-5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0="
         }
       ]
     },
     {
-      "Route": "app.knxokakbgn.css",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\app.css",
+      "Route": "app.4s3jleesow.css.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-4s3jleesow.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2266,7 +2174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5357"
+          "Value": "2187"
         },
         {
           "Name": "Content-Type",
@@ -2274,56 +2182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU=\""
+          "Value": "\"jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "knxokakbgn"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oEPNS6SM4Mmbfi0bq2JgK1GRu5iTtSvtImaymGbPouU="
-        }
-      ]
-    },
-    {
-      "Route": "app.knxokakbgn.css.gz",
-      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-knxokakbgn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2135"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 21:43:21 GMT"
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2341,7 +2204,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "knxokakbgn"
+          "Value": "4s3jleesow"
         },
         {
           "Name": "label",
@@ -2349,7 +2212,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6FiCW1V6tbpPZAIAjzajV3sQtUx6Y22ch+dTK8Y0mzA="
+          "Value": "sha256-jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-4s3jleesow.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000457038391"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2187"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KaWGFEThzBE66QCbBcEQCMp+7S82XIQVF7xVrT9Yl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\Tomas.Venere\\Desktop\\r\\PurplePete\\PurplePete\\obj\\Debug\\net9.0\\compressed\\z67x1x4wm0-4s3jleesow.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 16:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jAC5zGVIT7yJDk3Q2NND7zT267QwVh5RZ1P04ktNA3I="
         }
       ]
     },
@@ -15736,7 +15736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15789,7 +15789,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15826,7 +15826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15873,7 +15873,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15934,7 +15934,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15979,7 +15979,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16034,7 +16034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16095,7 +16095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16140,7 +16140,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16195,7 +16195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16248,7 +16248,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16285,7 +16285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 22:30:59 GMT"
+          "Value": "Mon, 12 May 2025 16:02:59 GMT"
         },
         {
           "Name": "Cache-Control",

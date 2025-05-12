@@ -94,7 +94,7 @@ C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\PurplePet
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\scopedcss\bundle\PurplePete.styles.css
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\scopedcss\projectbundle\PurplePete.bundle.scp.css
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\z67x1x4wm0-knxokakbgn.gz
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\z67x1x4wm0-4s3jleesow.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\f8l94czads-bqjiyaj88i.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\zswrwglgpx-c2jlpeoesf.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\3tzj2g8n4l-erw9l3u2r3.gz
@@ -139,6 +139,8 @@ C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compresse
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\v2qhsmanxs-h1s4sie4z3.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\ocxclrfp8d-63fj8s7r0e.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\yi51l72wu3-0j3bgjxly4.gz
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\pq1ozlxfwu-en2qvwu33f.gz
+C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\gqc8e6a8xr-en2qvwu33f.gz
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -153,5 +155,3 @@ C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\refint\Pu
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\PurplePete.pdb
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\PurplePete.genruntimeconfig.cache
 C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\ref\PurplePete.dll
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\pq1ozlxfwu-en2qvwu33f.gz
-C:\Users\Tomas.Venere\Desktop\r\PurplePete\PurplePete\obj\Debug\net9.0\compressed\gqc8e6a8xr-en2qvwu33f.gz
