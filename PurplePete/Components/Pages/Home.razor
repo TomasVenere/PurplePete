@@ -1,13 +1,13 @@
 ﻿@page "/"
 @using PurplePete.Services
+@using System.Text.RegularExpressions
 @rendermode InteractiveServer
 @inject BedrockChatAI BedrockChatAI
-
+@inject ConfluenceService ConfluenceService
 
 <PageTitle>Home</PageTitle>
 
 <div class="chat-container">
-    <!-- Robot Image -->
     <div class="robot-container">
         <img src="@RobotImage" alt="Purple Pete" class="robot-image" />
     </div>
@@ -18,7 +18,15 @@
             {
                 <div class="message @(message.Sender == "You" ? "user-message" : "bot-message")">
                     <div class="bubble">
-                        <strong>@message.Sender:</strong> @message.Text
+                        <strong>@message.Sender:</strong>
+                        @if (message.Text.Contains('\n'))
+                        {
+                            <pre>@message.Text</pre>
+                        }
+                        else
+                        {
+                            @message.Text
+                        }
                     </div>
                 </div>
             }
@@ -36,34 +44,61 @@
     private string _currentMessage = string.Empty;
     private bool _isBotTyping = false;
 
-    private string RobotImage => _isBotTyping 
-        ? "/avatars/PurpleRobotTalking.png" 
+    private string RobotImage => _isBotTyping
+        ? "/avatars/PurpleRobotTalking.png"
         : "/avatars/PurpleRobot.png";
 
     private async Task SendMessage()
+{
+    if (string.IsNullOrWhiteSpace(_currentMessage)) return;
+
+    _messages.Add(new ChatMessage { Sender = "You", Text = _currentMessage });
+
+    _isBotTyping = true;
+    var userMessage = _currentMessage;
+    _currentMessage = string.Empty;
+    StateHasChanged();
+
+    await Task.Delay(1000);
+
+    bool isNoAI = Regex.IsMatch(userMessage, @"\bno[\s\-]?ai\b", RegexOptions.IgnoreCase);
+    var confluenceResponse = await ConfluenceService.GetConfluenceMatchAsync(userMessage);
+
+    string response;
+
+    if (isNoAI)
     {
-        if (string.IsNullOrWhiteSpace(_currentMessage)) return;
-
-        _messages.Add(new ChatMessage { Sender = "You", Text = _currentMessage });
-
-        _isBotTyping = true;
-        var userMessage = _currentMessage;
-        _currentMessage = string.Empty;
-        StateHasChanged(); // Update robot to talking
-
-        await Task.Delay(1000); // Simulate thinking
-
-        var response = await BedrockChatAI.GetResponseAsync(userMessage);
-
-        _messages.Add(new ChatMessage
+        if (confluenceResponse != null)
         {
-            Sender = "Purple Pete",
-            Text = response
-        });
-
-        _isBotTyping = false;
-        StateHasChanged(); // Revert robot
+            response = "No AI:\n" + confluenceResponse;
+        }
+        else
+        {
+            // ← Use raw user input when no Confluence match and 'no ai' flag
+            response = "No AI:\n" + userMessage;
+        }
     }
+    else
+    {
+        if (confluenceResponse != null)
+        {
+            response = await BedrockChatAI.GetResponseAsync(confluenceResponse, userMessage);
+        }
+        else
+        {
+            response = await BedrockChatAI.GetResponseAsync(userMessage, userMessage);
+        }
+    }
+
+    _messages.Add(new ChatMessage
+    {
+        Sender = "Purple Pete",
+        Text = response
+    });
+
+    _isBotTyping = false;
+    StateHasChanged();
+}
 
 
     public class ChatMessage
