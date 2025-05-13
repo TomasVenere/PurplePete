@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurplePete", "PurplePete\PurplePete.csproj", "{983288F9-7EDF-4CF6-8045-62FFA4CD86BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfluenceProvider", "ConfluenceProvider\ConfluenceProvider.csproj", "{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,23 @@ Global
 		{983288F9-7EDF-4CF6-8045-62FFA4CD86BB}.Release|x64.Build.0 = Release|Any CPU
 		{983288F9-7EDF-4CF6-8045-62FFA4CD86BB}.Release|x86.ActiveCfg = Release|Any CPU
 		{983288F9-7EDF-4CF6-8045-62FFA4CD86BB}.Release|x86.Build.0 = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|x64.Build.0 = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|x64.ActiveCfg = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|x64.Build.0 = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{790BF58A-5E16-48E1-840A-A9EE44F1D1E1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF384C16-B944-4D20-9090-CA8EA09F5C64}
 	EndGlobalSection
 EndGlobal
