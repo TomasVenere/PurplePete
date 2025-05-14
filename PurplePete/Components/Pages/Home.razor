@@ -75,6 +75,10 @@
             response = await AccountInfo.GetAllAccountsSummaryAsync();
             _awaitingFullAccountConfirmation = true;
         }
+        else if (AccountInfo.IsCashPercentageFilterQuery(userMessage))
+        {
+            response = await AccountInfo.GetAccountsByCashPercentageQueryAsync(userMessage);
+        }
         else if (_isExpectingAccountNumber)
         {
             if (AccountInfo.IsValidAccountNumber(userMessage))

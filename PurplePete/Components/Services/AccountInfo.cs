@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using System.Text;
+using System.Globalization;
 
 namespace PurplePete.Services
 {
@@ -24,7 +25,7 @@ namespace PurplePete.Services
 
         public bool IsValidAccountNumber(string message)
         {
-            return Regex.IsMatch(message, @"^\d{6,}$"); // 6+ digit number
+            return Regex.IsMatch(message, @"^\d{6,}$");
         }
 
         public bool HasInvalidCharacters(string message)
@@ -95,30 +96,74 @@ namespace PurplePete.Services
 
             return sb.ToString();
         }
+
+        public bool IsCashPercentageFilterQuery(string message)
+        {
+            return Regex.IsMatch(message, @"totalCashPercentage\s+(more|greater|less|lower)\s+than\s+\d+%?", RegexOptions.IgnoreCase);
+        }
+
+        public async Task<string> GetAccountsByCashPercentageQueryAsync(string message)
+        {
+            var match = Regex.Match(message, @"totalCashPercentage\s+(?<comparator>more|greater|less|lower)\s+than\s+(?<percent>\d+)%?", RegexOptions.IgnoreCase);
+
+            if (!match.Success)
+                return "Sorry, I couldn't understand the percentage filter.";
+
+            var comparator = match.Groups["comparator"].Value.ToLower();
+            var percentValue = double.Parse(match.Groups["percent"].Value);
+
+            var accounts = await LoadAccountsAsync();
+            if (accounts.Count == 0)
+                return "No accounts found.";
+
+            var filtered = new List<Account>();
+
+            foreach (var acc in accounts)
+            {
+                if (double.TryParse(acc.TotalCashPercentage.Replace("%", ""), NumberStyles.Any, CultureInfo.InvariantCulture, out var accountPercent))
+                {
+                    if ((comparator is "more" or "greater") && accountPercent > percentValue)
+                        filtered.Add(acc);
+                    else if ((comparator is "less" or "lower") && accountPercent < percentValue)
+                        filtered.Add(acc);
+                }
+            }
+
+            if (filtered.Count == 0)
+                return $"No accounts found with totalCashPercentage {comparator} than {percentValue}%.";
+
+            var sb = new StringBuilder($"Accounts with totalCashPercentage {comparator} than {percentValue}%:\n\n");
+            foreach (var acc in filtered)
+            {
+                sb.AppendLine($"- {acc.AccountName} (#{acc.AccountNumber}) — {acc.TotalCashPercentage}");
+            }
+
+            return sb.ToString();
+        }
     }
 
     public class Account
     {
-        public string AccountName { get; set; }
-        public string AccountNumber { get; set; }
-        public string WorkflowState { get; set; }
-        public string RebalanceSetting { get; set; }
-        public string AccountType { get; set; }
-        public string RebalanceStatus { get; set; }
-        public string Model { get; set; }
-        public string ModelDeviation { get; set; }
-        public string TotalBuys { get; set; }
-        public string TotalSells { get; set; }
-        public string Cash { get; set; }
-        public string CashPercentage { get; set; }
-        public string TotalCashPercentage { get; set; }
-        public string InitialCashPercentage { get; set; }
-        public string CashReserveActual { get; set; }
-        public string CashReserveGoal { get; set; }
-        public string RebalancingAccountValue { get; set; }
-        public string YtdStRealizedGain { get; set; }
-        public string YtdLtRealizedGain { get; set; }
-        public string YtdCapitalGainsTaxes { get; set; }
-        public string AnnualCapitalGainsTaxBudget { get; set; }
+        public string? AccountName { get; set; }
+        public string? AccountNumber { get; set; }
+        public string? WorkflowState { get; set; }
+        public string? RebalanceSetting { get; set; }
+        public string? AccountType { get; set; }
+        public string? RebalanceStatus { get; set; }
+        public string? Model { get; set; }
+        public string? ModelDeviation { get; set; }
+        public string? TotalBuys { get; set; }
+        public string? TotalSells { get; set; }
+        public string? Cash { get; set; }
+        public string? CashPercentage { get; set; }
+        public string? TotalCashPercentage { get; set; }
+        public string? InitialCashPercentage { get; set; }
+        public string? CashReserveActual { get; set; }
+        public string? CashReserveGoal { get; set; }
+        public string? RebalancingAccountValue { get; set; }
+        public string? YtdStRealizedGain { get; set; }
+        public string? YtdLtRealizedGain { get; set; }
+        public string? YtdCapitalGainsTaxes { get; set; }
+        public string? AnnualCapitalGainsTaxBudget { get; set; }
     }
 }
