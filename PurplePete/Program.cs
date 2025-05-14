@@ -11,6 +11,8 @@ builder.Services.AddSingleton<AccountInfo>();
 builder.Services.AddSingleton<BedrockChatAI>();
 builder.Services.AddSingleton<ConfluenceService>();
 
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

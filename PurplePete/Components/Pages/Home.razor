@@ -45,6 +45,7 @@
     private string _currentMessage = string.Empty;
     private bool _isBotTyping = false;
     private bool _isExpectingAccountNumber = false;
+    private bool _awaitingFullAccountConfirmation = false;
 
     private string RobotImage => _isBotTyping
         ? "/avatars/PurpleRobotTalking.png"
@@ -64,8 +65,17 @@
 
         string response;
 
-        // Account Info Handling
-        if (_isExpectingAccountNumber)
+        if (_awaitingFullAccountConfirmation && userMessage.Trim().Equals("yes", StringComparison.OrdinalIgnoreCase))
+        {
+            response = await AccountInfo.GetAllAccountsFullDataAsync();
+            _awaitingFullAccountConfirmation = false;
+        }
+        else if (userMessage.Contains("all accounts", StringComparison.OrdinalIgnoreCase))
+        {
+            response = await AccountInfo.GetAllAccountsSummaryAsync();
+            _awaitingFullAccountConfirmation = true;
+        }
+        else if (_isExpectingAccountNumber)
         {
             if (AccountInfo.IsValidAccountNumber(userMessage))
             {
@@ -88,7 +98,6 @@
         }
         else
         {
-            // AI/Confluence fallback
             bool isNoAI = Regex.IsMatch(userMessage, @"\bno[\s\-]?ai\b", RegexOptions.IgnoreCase);
             var confluenceResponse = await ConfluenceService.GetConfluenceMatchAsync(userMessage);
 
