@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddSingleton<AccountInfo>();
 builder.Services.AddSingleton<BedrockChatAI>();
 builder.Services.AddSingleton<ConfluenceService>();
 

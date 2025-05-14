@@ -4,6 +4,7 @@
 @rendermode InteractiveServer
 @inject BedrockChatAI BedrockChatAI
 @inject ConfluenceService ConfluenceService
+@inject AccountInfo AccountInfo
 
 <PageTitle>Home</PageTitle>
 
@@ -43,63 +44,77 @@
     private List<ChatMessage> _messages = new();
     private string _currentMessage = string.Empty;
     private bool _isBotTyping = false;
+    private bool _isExpectingAccountNumber = false;
 
     private string RobotImage => _isBotTyping
         ? "/avatars/PurpleRobotTalking.png"
         : "/avatars/PurpleRobot.png";
 
     private async Task SendMessage()
-{
-    if (string.IsNullOrWhiteSpace(_currentMessage)) return;
-
-    _messages.Add(new ChatMessage { Sender = "You", Text = _currentMessage });
-
-    _isBotTyping = true;
-    var userMessage = _currentMessage;
-    _currentMessage = string.Empty;
-    StateHasChanged();
-
-    await Task.Delay(1000);
-
-    bool isNoAI = Regex.IsMatch(userMessage, @"\bno[\s\-]?ai\b", RegexOptions.IgnoreCase);
-    var confluenceResponse = await ConfluenceService.GetConfluenceMatchAsync(userMessage);
-
-    string response;
-
-    if (isNoAI)
     {
-        if (confluenceResponse != null)
+        if (string.IsNullOrWhiteSpace(_currentMessage)) return;
+
+        var userMessage = _currentMessage;
+        _messages.Add(new ChatMessage { Sender = "You", Text = userMessage });
+        _currentMessage = string.Empty;
+        _isBotTyping = true;
+        StateHasChanged();
+
+        await Task.Delay(1000);
+
+        string response;
+
+        // Account Info Handling
+        if (_isExpectingAccountNumber)
         {
-            response = "No AI:\n" + confluenceResponse;
+            if (AccountInfo.IsValidAccountNumber(userMessage))
+            {
+                response = AccountInfo.GetAccountStatus(userMessage);
+                _isExpectingAccountNumber = false;
+            }
+            else if (AccountInfo.HasInvalidCharacters(userMessage))
+            {
+                response = "Please provide an account number without any other characters, just the number.";
+            }
+            else
+            {
+                response = "That doesn't look like a valid account number. Please try again.";
+            }
+        }
+        else if (AccountInfo.ContainsAccountKeyword(userMessage))
+        {
+            response = "Sure, can you provide your account number?";
+            _isExpectingAccountNumber = true;
         }
         else
         {
-            // ← Use raw user input when no Confluence match and 'no ai' flag
-            response = "No AI:\n" + userMessage;
+            // AI/Confluence fallback
+            bool isNoAI = Regex.IsMatch(userMessage, @"\bno[\s\-]?ai\b", RegexOptions.IgnoreCase);
+            var confluenceResponse = await ConfluenceService.GetConfluenceMatchAsync(userMessage);
+
+            if (isNoAI)
+            {
+                response = confluenceResponse != null
+                    ? "No AI:\n" + confluenceResponse
+                    : "No AI:\n" + userMessage;
+            }
+            else
+            {
+                response = confluenceResponse != null
+                    ? await BedrockChatAI.GetResponseAsync(confluenceResponse, userMessage)
+                    : await BedrockChatAI.GetResponseAsync(userMessage, userMessage);
+            }
         }
-    }
-    else
-    {
-        if (confluenceResponse != null)
+
+        _messages.Add(new ChatMessage
         {
-            response = await BedrockChatAI.GetResponseAsync(confluenceResponse, userMessage);
-        }
-        else
-        {
-            response = await BedrockChatAI.GetResponseAsync(userMessage, userMessage);
-        }
+            Sender = "Purple Pete",
+            Text = response
+        });
+
+        _isBotTyping = false;
+        StateHasChanged();
     }
-
-    _messages.Add(new ChatMessage
-    {
-        Sender = "Purple Pete",
-        Text = response
-    });
-
-    _isBotTyping = false;
-    StateHasChanged();
-}
-
 
     public class ChatMessage
     {

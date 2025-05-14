@@ -26,7 +26,6 @@ namespace PurplePete.Services
                 return Task.FromResult("No AI:\n" + rawResponse);
             }
 
-            // Otherwise, apply light formatting
             var cleaned = rawResponse
                 .Trim()
                 .Replace("\r\n", "\n")
