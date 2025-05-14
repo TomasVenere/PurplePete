@@ -4,11 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0455253a-1d2a-4765-8cae-87476d7eeff2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.Bedrock" Version="3.7.200" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <ProjectReference Include="..\ConfluenceProvider\ConfluenceProvider.csproj" />
   </ItemGroup>
 
 </Project>

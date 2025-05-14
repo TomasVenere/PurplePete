@@ -1,12 +1,19 @@
+using PurplePete.ConfluenceProvider;
 using System;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace PurplePete.Services
 {
-    public class ConfluenceService
-    {
-        private const string RawMassTransitHelpResponse = """
+	public class ConfluenceService
+	{
+		private readonly IConfluenceClient _client;
+		public ConfluenceService(IConfluenceClient client)
+		{
+			_client = client;
+		}
+
+		private const string RawMassTransitHelpResponse = """
 Debugging RabbitMQ and MassTransit configurations can be a daunting task, especially when messages are mysteriously lost or queues seem misconfigured. This guide will walk you through a structured approach to identify and resolve common MassTransit and RabbitMQ issues. Whether you are a seasoned developer or just starting, this guide will help you quickly diagnose and fix your message delivery problems.
 
 1. Understanding Common RabbitMQ Issues with MassTransit:
@@ -119,19 +126,37 @@ This allows you to see every message passing through the queue, making it easier
 Debugging RabbitMQ and MassTransit issues can be challenging, but with a clear process and the right tools, you can quickly identify and fix problems. This guide should give you the confidence to efficiently troubleshoot your message delivery issues.
 """;
 
-        public Task<string?> GetConfluenceMatchAsync(string message)
-        {
-            if (string.IsNullOrWhiteSpace(message))
-                return Task.FromResult<string?>(null);
+		public async Task<string?> GetConfluenceMatchAsync(string message)
+		{
+			if (string.IsNullOrWhiteSpace(message))
+				return null;
 
-            var pattern = @"\bmass[\s\-]?transit\b";
-            if (Regex.IsMatch(message, pattern, RegexOptions.IgnoreCase))
-            {
-                Console.WriteLine("[ConfluenceService] MassTransit keyword detected!");
-                return Task.FromResult<string?>(RawMassTransitHelpResponse);
-            }
+			var pattern = @"\bmass[\s\-]?transit\b";
+			if (Regex.IsMatch(message, pattern, RegexOptions.IgnoreCase))
+			{
+				Console.WriteLine("[ConfluenceService] MassTransit keyword detected!");
+				return RawMassTransitHelpResponse;
+			}
 
-            return Task.FromResult<string?>(null);
-        }
-    }
+			try
+			{
+
+				IEnumerable<ConfluenceProvider.Models.Page>? result = await _client.SearchForKeywords([CleanMessage(message)]);
+
+				if (result is not null && result.Any())
+					return string.Join('\n', result.Select(page => $"[{page.Title}]({page.Url})"));
+			}
+			catch { }
+
+			return null;
+
+
+		}
+
+		private string CleanMessage(string message)
+		{
+			return message.Replace("noai", "", StringComparison.InvariantCultureIgnoreCase)
+			.Replace("no ai", "", StringComparison.InvariantCultureIgnoreCase);
+		}
+	}
 }

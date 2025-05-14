@@ -1,11 +1,17 @@
 using Amazon.Runtime;
 using PurplePete.Components;
+using PurplePete.ConfluenceProvider;
 using PurplePete.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration.AddUserSecrets<Program>();
+
+// Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddConfluenceProvider(builder.Configuration);
 
 builder.Services.AddSingleton<AccountInfo>();
 builder.Services.AddSingleton<BedrockChatAI>();
